@@ -1,0 +1,14 @@
+prefix=/Volumes/External/Git/qt5.15-static
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Qml
+Description: Qt Qml module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5Qml 
+Libs.private: /Volumes/External/Git/qt5.15-static/lib/libQt5Network.a -framework SystemConfiguration -framework GSS /Volumes/External/Git/qt5.15-static/lib/libQt5Core.a -framework DiskArbitration -framework IOKit -lm -framework AppKit -framework Security -framework ApplicationServices -framework CoreServices -framework CoreFoundation -framework Foundation /Volumes/External/Git/qt5.15-static/lib/libqtpcre2.a    
+Cflags: -DQT_QML_LIB -I${includedir}/QtQml -I${includedir}
+Requires: Qt5Core Qt5Network
+

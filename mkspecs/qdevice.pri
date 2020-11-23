@@ -1,0 +1,2 @@
+QMAKE_MAC_SDK = macosx10.15
+GCC_MACHINE_DUMP = 
