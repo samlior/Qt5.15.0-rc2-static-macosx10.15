@@ -1,4 +1,4 @@
-+ Qt5.15.0-rc2-static-macosx10.15
+# Qt5.15.0-rc2-static-macosx10.15
 configure command:
 
 ```
